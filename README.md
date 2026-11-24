@@ -26,4 +26,6 @@ Venator was designed to address these gaps by leveraging existing infrastructure
 
 ## Deployment Guide
 
+Source builds require Go 1.25 or newer after the gRPC and cryptography dependency security updates. Rebuild and redeploy existing binaries to pick up these fixes.
+
 For detailed steps on how to deploy Venator using Helm and Kubernetes, including building Docker images, configuring connectors, and setting up detection rules, please refer to the [Deployment Guide](docs/deployment.md).
